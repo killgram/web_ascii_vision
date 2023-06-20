@@ -1,0 +1,100 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "target": "ESNext",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    /* Aliases */
+    "baseUrl": ".",
+    "paths": {
+      "@assets": [
+        "src/assets"
+      ],
+      "@assets/*": [
+        "src/assets/*"
+      ],
+      "@client": [
+        "src/client"
+      ],
+      "@client/*": [
+        "src/client/*"
+      ],
+      "@components": [
+        "src/components"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@configurations": [
+        "src/configurations"
+      ],
+      "@configurations/*": [
+        "src/configurations/*"
+      ],
+      "@navigators": [
+        "src/navigators"
+      ],
+      "@navigators/*": [
+        "src/navigators/*"
+      ],
+      "@pages": [
+        "src/pages"
+      ],
+      "@pages/*": [
+        "src/pages/*"
+      ],
+      "@store": [
+        "src/store"
+      ],
+      "@store/*": [
+        "src/store/*"
+      ],
+      "@utils": [
+        "src/utils"
+      ],
+      "@utils/*": [
+        "src/utils/*"
+      ],
+      "@services": [
+        "src/services"
+      ],
+      "@services/*": [
+        "src/services/*"
+      ],
+      "@styles": [
+        "src/styles"
+      ],
+      "@styles/*": [
+        "src/styles/*"
+      ],
+    }
+  },
+  "include": [
+    "src",
+    "custom.d.ts"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}
